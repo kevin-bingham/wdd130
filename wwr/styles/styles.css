@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff:wght@400..700&display=swap');
 :root {
 
-    --heading-font: "Permanent Marker , DynaPuff , Anton";
-    --paragragh-font: "Playfair Display , Helvetica, sans-serif ";
+    --heading-font: Permanent Marker , DynaPuff , Anton ;
+    --paragragh-font: Playfair Display , Helvetica, sans-serif ;
 }
 #content {
     max-width: 1600px;
