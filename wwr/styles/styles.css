@@ -48,6 +48,7 @@ section {
 }
 header {
     background-color: #184E77;
+    font-family: var(--heading-font);
 }
 body {
     background-color: white;
@@ -96,12 +97,14 @@ footer p a:hover {
 }
 .msg h2 {
     color:antiquewhite;
+    font-family: var(--paragragh-font);
 }
 .msg p {
     color: antiquewhite;
 }
 .home-title {
     color: #184E77;
+    font-family: var(--paragragh-font);
 }
 .logo {
     width: 80px;
