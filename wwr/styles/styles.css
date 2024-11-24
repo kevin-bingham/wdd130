@@ -254,4 +254,39 @@ main section img {
         margin-top: 25px;
     }
 }
+
+/*  Rivers page css */
+
+.rivers-grid p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.river-grid { 
+    display: grid; 
+    grid-column: 2fr;
+    grid-row: 3fr;
+    gap: 20px;  
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+.salmon_river{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.grey_canyon{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.grand_canyon{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.rafting_pictures{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+
             
