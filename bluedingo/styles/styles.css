@@ -118,7 +118,15 @@ header {
     flex: 1; 
     padding-left: 20px; 
 }
-
+#large{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#small{
+    font-size: medium;
+    margin-top: 0;
+}
 
 button {
     width: 100%; 
