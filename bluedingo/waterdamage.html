@@ -9,24 +9,32 @@
 <body>
     <div id="content">
         <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/bluedingologo.jpg" alt=" Blue Dingo Logo"
-                href="index.html">
+            <a class="logo" href="index.html">
+                <img class="logo" src="images/bluedingologo.jpg" alt=" Blue Dingo Logo">
             </a>
             <button class="login">
                 Login
             </button>
-            <nav>
+            <nav id="pages">
                 <a href="index.html">Home</a>
                 <div class="services"> <!-- Dropdown menu needs css-->
                     <div class="services-menu">
-                        <a href="waterdamage.html">Water Damage</a>
-                        <a href="firedamage.html">Fire Damage</a>
+                        <ul>
+                            <li>
+                                <a href="waterdamage.html">Water Damage</a>
+                            </li>
+                            <li>
+                                <a href="firedamage.html">Fire Damage</a>
+                            </li>
+                            <li>
+                                <a href="site-plan.html">Site-plan</a>
+                            </li>
+                        </ul>
                     </div> 
                 </div>
                 <a href="contactus.html">Contact Us</a>
             </nav>
-            <a href=""><!--Will change to button when I learn the javascript to make it interact properly-->
+            <a class="phone_number" href=""><!--Will change to button when I learn the javascript to make it interact properly-->
                 1(208) 201-5108
             </a>
         </header>
@@ -96,28 +104,40 @@
                 </p>
             </div>
         </main>
-        <footer>
-            <div>
-                <a id="logo_link" href="index.html">
-                    <img class="logo" src="images/bluedingologo.jpg" alt=" Blue Dingo Logo">
-                </a>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="images/bluedingologo.jpg" alt="Blue Dingo Logo">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <nav>
+                        <a href="waterdamage.html">Water Damage</a>
+                        <a href="firedamage.html">Fire Damage</a>
+                        <a href="contactus.html">Contact Us</a>
+                        <a href="site-plan.html">Site Plan</a>
+                    </nav>
+                </div>
+                <div class="footer-contact">
+                    <p>1(208) 201-5108</p>
+                    <p>info@bluedingo.com</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook-icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter-icon.png" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram-icon.png" alt="Instagram">
+                    </a>
+                </div>
             </div>
-            <section>
-                <nav>
-                    <a href="waterdamage.html">Water Damage</a>
-                    <a href="firedamage.html">Fire Damage</a>
-                    <a href="contactus.html">Contact Us</a>
-                </nav>
-            </section>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="" alt="instagram icon">
-        </footer>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Blue Dingo Construction. All Rights Reserved.</p>
+            </div>
+        </footer>  
 </body>
 </html>

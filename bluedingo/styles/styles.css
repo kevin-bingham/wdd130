@@ -148,7 +148,7 @@ button {
 
 button:hover {
     background-color: var(--primary-color); 
-    color: var(--accent1-color); 
+    color: var(--secondary-color); 
     transform: translateY(-2px); 
 }
 
