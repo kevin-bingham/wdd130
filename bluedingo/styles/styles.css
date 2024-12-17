@@ -138,7 +138,7 @@ button {
     white-space: normal; 
     word-wrap: break-word; 
     background-color: lightgrey; 
-    color: var(--accent2-color); 
+    color: black; 
     border: 2px solid var(--accent1-color); 
     text-align: left; 
     border-radius: 8px; 
@@ -249,7 +249,7 @@ button:hover {
     color: var(--accent1-color);
 }
 .footer-links nav a {
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     margin: 0 10px;
     text-decoration: none;
 }

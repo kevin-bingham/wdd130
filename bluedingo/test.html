@@ -1,23 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Dingo</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul class="dropdown">
-            <li><a href="#">Services</a>
-                <ul class="dropdown-content">
-                    <li><a href="waterdamage.html">Water Damage</a></li>
-                    <li><a href="firedamage.html">Fire Damage</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    <script src="script.js"></script>
-</body>
-</html>
+<div class="services">
+    <button onclick="myFunction()" class="dropbtn">Services</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+
+  <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
