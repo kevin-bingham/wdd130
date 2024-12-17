@@ -4,7 +4,7 @@
   --primary-color: #0D1335;
   --secondary-color: #F34800;
   --accent1-color: #51BEFF;
-  --accent2-color: #white;
+  --accent2-color: white;
   
   --heading-font: "roboto";
   --paragraph-font: "Playfair Display", "Kanit", Helvetica, sans-serif;
@@ -14,6 +14,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: var(--paragraph-font);
 }
 
 a {
@@ -276,3 +277,179 @@ button:hover {
 .footer-bottom p {
     margin: 0;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+.hero-text {
+    flex: 1; 
+    max-width: 50%; 
+    padding-right: 20px; 
+}
+
+#water {
+    flex: 1; 
+    max-width: 50%; 
+    height: auto; 
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+}
+.hero-text h2{
+    font-family: var(--heading-font);
+    font-size: x-large;
+}
+.hero-text p {
+    font-family: var(--paragraph-font);
+    font-size: x-large;
+}
+.hero-text {
+    flex: 1; 
+    max-width: 50%; 
+    padding-right: 20px; 
+    order: 1; 
+}
+
+#water {
+    flex: 1; 
+    max-width: 50%; 
+    height: auto; 
+    order: 2; 
+}
+
+
+.What-to-Expect {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    margin: 40px 0;
+    padding: 0 20px; 
+}
+
+
+.What-to-Expect p {
+    grid-column: 1 / 2; 
+    padding-right: 20px; 
+    font-size: x-large; 
+}
+
+
+.What-to-Expect ol {
+    grid-column: 2 / 3; 
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+
+.What-to-Expect ol li {
+    margin-bottom: 15px; 
+    line-height: 1.5;
+}
+
+.What-to-Expect h3 {
+    font-size: xx-large;
+}
+
+
+.water-promise {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 40px 20px; 
+}
+
+
+.water-promise h3 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+}
+
+
+.water-promise-content {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 1000px; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+
+.water-promise img {
+    width: 40%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+
+.water-promise p {
+    width: 55%; 
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    text-align: left; 
+    padding: 20px; 
+}
+#fire {
+    flex: 1; 
+    max-width: 50%; 
+    height: auto; 
+}
+
+#fire {
+    flex: 1; 
+    max-width: 50%; 
+    height: auto; 
+    order: 2; 
+}
+
+
+.fire-promise {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 40px 20px; 
+}
+
+
+.fire-promise h3 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+}
+
+
+.fire-promise-content {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 1200px; 
+    gap: 20px; 
+}
+
+
+.fire-promise img {
+    width: 50%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+
+.fire-promise p {
+    width: 50%; 
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    text-align: left; 
+    padding: 20px; 
+}
+
