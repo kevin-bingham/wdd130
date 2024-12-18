@@ -83,9 +83,9 @@
       </h3>
       <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Water Restoration</a>
-        <a href="#">Fire Restoration</a>
+        <a href="index.html">Home</a>
+        <a href="waterdamage.html">Water Restoration</a>
+        <a href="firedamage.html">Fire Restoration</a>
       </nav>
       <hr>
       <h2>
@@ -229,6 +229,104 @@ Your property deserves the utmost care, and you need a team that treats it like 
       </p>
       <img src="images/Water-Damage.png" alt="page 3 wireframe">
     </main>
-  </body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Dingo | Home |</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a class="logo" href="index.html">
+                <img class="logo" src="images/bluedingologo.jpg" alt=" Blue Dingo Logo">
+            </a>
+            <button class="login">
+                Login
+            </button>
+            <nav id="pages">
+                <a href="index.html">Home</a>
+                <div class="services"> <!-- Dropdown menu needs css-->
+                    <div class="services-menu">
+                        <ul>
+                            <li>
+                                <a href="waterdamage.html">Water Damage</a>
+                            </li>
+                            <li>
+                                <a href="firedamage.html">Fire Damage</a>
+                            </li>
+                            <li>
+                                <a href="site-plan.html">Site-plan</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+            <a class="phone_number" href=""><!--Will change to button when I learn the javascript to make it interact properly-->
+                1(208) 201-5108
+            </a>
+        </header>
+        <main>
+            <div class="container">
+                <form action="action_page.php" method="POST">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address.." required>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="images/bluedingologo.jpg" alt="Blue Dingo Logo">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <nav>
+                        <a href="waterdamage.html">Water Damage</a>
+                        <a href="firedamage.html">Fire Damage</a>
+                        <a href="contactus.html">Contact Us</a>
+                        <a href="site-plan.html">Site Plan</a>
+                    </nav>
+                </div>
+                <div class="footer-contact">
+                    <p>1(208) 201-5108</p>
+                    <p>info@bluedingo.com</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook-icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter-icon.png" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram-icon.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Blue Dingo Construction. All Rights Reserved.</p>
+            </div>
+        </footer>  
+    </div>      
+</body>
 </html>
+
